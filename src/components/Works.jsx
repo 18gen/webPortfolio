@@ -33,7 +33,7 @@ const ProjectCard = ({
             Your browser does not support the video tag.
           </video>
           </div>
-        {/*
+        {/* // add image if needed
         <img
             src={image}
             alt='project_image'
