@@ -29,7 +29,7 @@
 
 In the early days of 2024, I found myself alone at university, filled with the inspiration to create a web portfolio to showcase my work. While people outside were celebrating the new year with fireworks and countdowns, I decided to delve into web development. I watched step-by-step tutorials from <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> and made some personal tweaks to create a website that reflects my unique style.
 
-Alongside web development, I ventured into the world of 3D modeling by following <a href="https://www.youtube.com/watch?v=0lj643VmTsg&list=LL&index=25"><b>CG Geek</b></a>'s tutorials. I designed a charming low-poly island and incorporated it into my website, which not only helped me learn the basics of frontend development but also sparked my enthusiasm for 3D modeling.
+Alongside web development, I ventured into the world of 3D modeling by following <a href="https://www.youtube.com/watch?v=0lj643VmTsg&list=LL&index=25"><b>CG Geek</b></a>'s tutorials. I designed a low-poly island and incorporated it into my website, which not only helped me learn the basics of frontend development but also sparked my enthusiasm for 3D modeling.
 
 I must admit that the code for this website may look a bit messy, as I drew inspiration from different sources and experimented along the way. I plan to tidy it up when I have some free time. So, I hope you'll be understanding as you explore my web portfolio. Thank you for visiting, and I hope you enjoy exploring my digital creations and would love to share my learning here! 😄🌟
 
