@@ -22,10 +22,8 @@
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
+3. 🦾 [Quick Start](#quick-start)
+7. 👀 [Snippets](#snippets)
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -75,7 +73,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 
 **Any troubles**
 
-- Just Google it
+- Google it ?
 - or checkout out the my based tutorial <a href="https://www.youtube.com/watch?v=0fYi8SGA20k&list=LL&index=33" target="_blank"><b>JavaScript Mastery</b>
 
 ## <a name="snippets">🕸️ Snippets</a>
