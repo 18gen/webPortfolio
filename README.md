@@ -40,7 +40,7 @@ I must admit that the code for this website may look a bit messy, as I drew insp
 - Vite
 - Tailwind CSS
 
-## <a name="quick-start">🤸 Quick Start</a>
+## <a name="quick-start">🦾 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
@@ -80,7 +80,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 - Google it ?
 - or checkout out the tutorial I refered at <a href="https://www.youtube.com/watch?v=0fYi8SGA20k&list=LL&index=33" target="_blank"><b>JavaScript Mastery</b>
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="snippets">👀 Snippets</a>
 
 <details>
 <summary><code>constants.js</code></summary>
