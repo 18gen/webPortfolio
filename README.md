@@ -27,7 +27,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-In the new year of 2024, I was at the university alone and came up with motivation of developing a website to showcase myself. While there are fireworks and counting down outside, I watched tutorial of web development on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> and followed each steps with some adjustments to my preference. Also, watching <a href="https://www.youtube.com/watch?v=0lj643VmTsg&list=LL&index=25"><b>CG Geek</br></a>'s turorial, I created low poly island and embedded to the website. The overall development of this website helped me learning the fundamental of frontend development as well as the excitement 3D modelling. The whole codes are mixed up with multiple sources and it's little messy. I'll fix them when I'm free so please go easy on me :))
+In the new year of 2024, I was at the university alone and came up with motivation of developing a website to showcase myself. While there are fireworks and counting down outside, I watched tutorial of web development on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> and followed each steps with some adjustments to my preference. Also, watching <a href="https://www.youtube.com/watch?v=0lj643VmTsg&list=LL&index=25"><b>CG Geek</b></a>'s turorial, I created low poly island and embedded to the website. The overall development of this website helped me learning the fundamental of frontend development as well as the excitement 3D modelling. The whole codes are mixed up with multiple sources and it's little messy. I'll fix them when I'm free so please go easy on me :))
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
