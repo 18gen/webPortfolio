@@ -31,15 +31,12 @@
 
 In the new year of 2024, I was at the university alone and came up with motivation of developing a website to showcase myself. While there are fireworks and counting down outside, I watched tutorial of web development on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> and followed each steps with some adjustments to my preference. Also, watching <a href="https://www.youtube.com/watch?v=0lj643VmTsg&list=LL&index=25"><b>CG Geek</br></a>'s turorial, I created low poly island and embedded to the website. The overall development of this website helped me learning the fundamental of frontend development as well as the excitement 3D modelling. The whole codes are mixed up with multiple sources and it's little messy. I'll fix them when I'm free so please go easy on me :))
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
-
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - React.js
 - Three.js
 - Vite
 - Tailwind CSS
-
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -88,270 +85,198 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 
 ```javascript
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
-  typescript,
   html,
   css,
+  C,
+  C2,
+  canva,
+  blender,
+  java,
+  drRacket,
+  python,
+  fusion360,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  scketchfab,
+  receiptGenerator,
+  chessGame,
+  memorylane,
+  github2,
+  youtube,
+  spotify,
 } from "../assets";
 
 export const navLinks = [
+  {
+    id: "home",
+    title: "Home",
+  },
   {
     id: "about",
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "tech",
+    title: "Skill",
+  }
+  ,
+  {
+    id: "project",
+    title: "Project",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "resume",
+    title: "Resume",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "3D  Modelling",
+    text: "New skill training from 2024! Let me transform your 2D image to 3D with Blender",
+    icon: scketchfab,
+    link: "https://sketchfab.com/18gen",
+    view: "View my SkechHub"
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Front / Backend Developer",
+    text: "Still learning a lot! \n Check out some of my latest work",
+    icon: github2,
+    link: "https://github.com/18gen",
+    view: "View my GitHub",
+  },
+    // link: "https://www.karuizawa.co.jp/newspaper/topics/2020/09/post-241.php?fbclid=IwAR3Z1iJ3yvYqmD8n_R1Lf8aKPU3WTd0BOPa_LPo4_CgFbgpyTELZb5E2wYA",
+  {
+    title: "Story Teller",
+    text: "Expressed my struggles as a teenager through a video, filmed in 2019",
+    icon: youtube,
+    link: "https://www.youtube.com/watch?v=aFPMyIzUWTU",
+    view: "Watch my Video",
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Melody Addict",
+    text: "Where I roam, tunes follow! Join me for a J-pop jam, retro hits and coffee beats",
+    icon: spotify,
+    link: "https://open.spotify.com/user/31z7l5ijs2mdlx3ozkhkqajeu7gq?si=fbcabeb81a774165",
+    view: "Peek my Playlist",
   },
 ];
 
+
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Java",
+    icon: java,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "C",
+    icon: C,
   },
   {
-    name: "React JS",
+    name: "C++",
+    icon: C2,
+  },
+  {
+    name: "HTML",
+    icon: html,
+  },
+  {
+    name: "CSS",
+    icon: css,
+  },
+  {
+    name: "React",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "DrRacket",
+    icon: drRacket,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Blender",
+    icon: blender,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Fusion360",
+    icon: fusion360,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
-const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Canva",
+    icon: canva,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name:"Y+OUR Memory Lane",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "Crafted during UofTHack11 with a theme of Nostalgia, \n Y+Our Memory Lane uses Google Map API to showcase past and present street views from the exact same perspective. With Cohere API, it adds stories about each location's landmarks and history, enhancing the nostalgic journey. Users can also contribute personal snapshots and tales, merging 'your and our' memory lanes into a shared narrative.",
     tags: [
       {
-        name: "react",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "googleMap/Cohere API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "html/css, React",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    videolink: memorylane,
+    source_code_link: "https://github.com/18gen/UofTHacks2024",
   },
   {
-    name: "Job IT",
+    name: "Sustainable Chef",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Cooking assistant website that helps reduce food waste by tracking the expiration dates of items and suggesting recipes using those ingredients. Integrating ChatGPT API for cooking instructions and DALL-E 3 for visualizing the finished dish, it transforms leftover management into a creative and sustainable culinary experience.",
     tags: [
       {
-        name: "react",
+        name: "python/flask",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "DALL-E3/OpenAI API",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "html/css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    videolink: receiptGenerator,
+    source_code_link: "https://github.com/18gen/receipt-generator",
   },
   {
-    name: "Trip Guide",
+    name: "Chess Game",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The chess game, built exclusively with C++ for a CS246 class group project, features AI players(levels 1 to 4) and includes graphics using XQuartz. *The source code is not shareable due to academic policies",
     tags: [
       {
-        name: "nextjs",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "XQuartz",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    videolink: chessGame,
+    source_code_link: "https://github.com/18gen",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, projects };
 ```
 </details>
 
@@ -369,7 +294,7 @@ export { services, technologies, experiences, testimonials, projects };
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: Helvetica;
   scroll-behavior: smooth;
   color-scheme: dark;
 }
@@ -487,6 +412,185 @@ export { services, technologies, experiences, testimonials, projects };
   transform: translateZ(0);
 }
 
+/* selfie image */
+.circular-image {
+  width: 130px; /* or any size you want */
+  height: 130px; /* should be the same as width to maintain aspect ratio */
+  border-radius: 20%; /* this makes the image circular */
+  object-fit: cover; /* this ensures the image covers the area without stretching */
+}
+
+/* vanish scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* for Internet Explorer, Edge */
+  scrollbar-width: none;  /* for Firefox */
+}
+
+/* Default size for larger screens */
+.ball-container {
+  width: 7rem;
+  height: 7rem;
+}
+
+/* Mobile screen sizes */
+@media only screen and (max-width: 767px) {
+  .ball-container {
+    width: 4rem; /* smaller size for mobile */
+    height: 4rem;
+  }
+  .circular-image {
+    width: 110px;
+    height: 110px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .ball-container {
+    width: 3.8rem; /* smaller size for mobile */
+    height: 3.8rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .ball-container {
+    width: 3.5rem; /* smaller size for mobile */
+    height: 3.5rem;
+  }
+}
+
+/* button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #040817;
+  color: #fff;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px; /* Adjust as needed */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px; /* Adjust the space between elements as needed */
+}
+
+.subtitle-container {
+  width: 100%;
+  text-align: center; /* Center the subtitle on mobile */
+}
+
+.subtitle {
+  font-size: 1.5em; /* Adjust the font size as needed */
+  margin: 20px 0; /* Space above and below the subtitle */
+  color: white; /* Color of the subtitle text */
+}
+
+.resume-preview {
+  position: relative;
+  width: 100%; /* Full width on mobile */
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .resume-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .subtitle-container {
+    width: calc(50% - 40px); /* Half the container width minus any margins */
+    text-align: left; /* Align the subtitle to the left on desktop */
+  }
+  .resume-preview {
+    /* Keep the same width as the subtitle container */
+    width: calc(100% - 40px);
+  }
+}
+
+
+.label {
+  margin-top: 10px; /* Space between label and image */
+  color: white;
+  font-size: 1em;
+  /* Add any additional styling you want for the label text here */
+}
+
+.resume-preview img {
+  width: 100%; /* Make image width responsive to the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain;
+  transition: filter 0.5s ease;
+}
+
+.button.open-pdf-button {
+  height: 54px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.darken {
+  filter: brightness(50%);
+}
+
+/* Additional styling for the footer */
+.footer-text {
+  padding-top: 1.5rem;
+  font-size: 1.5rem; /* Larger text size */
+  margin-bottom: 1rem; /* Space below the text */
+  font-weight: bold; /* Optional: makes the text bold */
+}
+
+.social-links-container {
+  display: flex;
+  justify-content: center; /* Center the links container */
+  flex-wrap: wrap; /* Allows icons to wrap on smaller screens */
+  gap: 1.5rem; /* Increase the space between icons */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.social-icon {
+  height: 40px; /* Adjust the size as needed */
+  width: auto;
+  vertical-align: middle; /* This will align the icons with any inline elements like text */
+  /* If you want the icons to be larger on larger screens, you can add a media query */
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .social-links-container {
+  gap: 2rem;
+  }
+  .footer-text {
+    font-size: 2rem;
+  
+  }
+  .social-icon {
+    height: 50px; /* Larger icons on larger screens */
+  }
+  
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
@@ -563,6 +667,42 @@ export { services, technologies, experiences, testimonials, projects };
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+._slider {
+  box-shadow: 0 10px 20px -5px #00000020;
+  height: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  display: flex; /* Aligns the updates container and the scrolling text */
+}
+
+.updatesContainer {
+  flex-shrink: 0; /* Prevents the container from shrinking */
+  background-color: #00cea8; /* Your desired background color */
+  padding: 0 1rem; /* Adjust the padding as needed */
+  display: flex;
+  align-items: center; /* Center the text vertically */
+}
+
+.fixedUpdate {
+  color: #040817; /* Color for the "Updates" text */
+}
+
+._slideTrack {
+  display: flex;
+  align-items: center; /* Center the text vertically */
+  animation: scrollText 20s linear infinite;
+  margin-left: 1rem; /* Give some space after the fixed text */
+  flex-grow: 1; /* Allows the track to take up the remaining width */
+}
+
+@keyframes scrollText {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
 ```
 </details>
 
@@ -720,4 +860,3 @@ module.exports = {
 ```
 
 </details>
-#
