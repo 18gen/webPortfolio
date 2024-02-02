@@ -1,0 +1,348 @@
+/* Menu */
+body {
+    font-family: "Poppins";
+    color: #f9f9f9;
+    background: #1e1b1f;
+    height: 100vh;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.burger, .menu {
+    position: fixed;
+}
+
+.burger {
+    z-index: 4;
+    top: 0;
+    right: 0px;
+    display: grid;
+    place-items: center;
+    width: 72px;
+    height: 72px;
+    background-image: url("../assets/menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.burger.open {
+    background-image: url("../assets/close.svg");
+}
+
+.background {
+    position: fixed;
+    z-index: 2;
+    top: 44px;
+    right: 44px;
+    aspect-ratio: 1 / 1;
+    translate: 64% -34%;
+    height: 50px;
+    width: 50px;
+    background: #07030a;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.background.open {
+    height: 150vh; /* Adjust size for open state */
+    width: 150vh; /* Adjust width for open state */
+    opacity: 0.85;
+    z-index: 2;
+}
+  
+.menu {
+    z-index: 3;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+}
+
+.menu nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 90px;
+    padding-right: 100px;
+}
+
+.menu.open {
+    opacity: 1;
+    visibility: visible;
+}
+  
+.menu a {
+    color: #f9f9f9;
+    font-size: 34px;
+    padding: 20px 0px 20px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    opacity: 0;
+    cursor:pointer;
+    transition: 0.4s;
+}
+  
+.menu nav:hover > a {
+    opacity: 0.25;
+}
+  
+.menu nav > a:hover {
+    opacity: 1;
+}
+  
+.menu.open a {
+    opacity: 1;
+}
+  
+@keyframes appear {
+    0% {
+      opacity: 0;
+      translate: 0 30px;
+    }
+    100% { opacity: 1; }
+}
+  
+.appear {
+    animation:
+      appear 0.35s
+      backwards;
+}
+  
+.page {
+    transition: 0.6s;
+}
+  
+.page.open {
+    filter: blur(10px);
+}
+
+
+/* connect component starts here */
+
+.popup{
+    position: absolute;
+    left: 50%;
+}
+
+
+.view-modal {
+    margin-left: 10px;
+    color: #fff;
+    padding: 3px 13px;
+    border-radius: 7px;
+    background-color: transparent; 
+    border: 1px solid #fff; 
+    transition: all 0.3s ease; 
+    font-weight: bold;
+}
+
+.view-modal:hover {
+    background-color: #fff; 
+    color: #000; 
+    color:  rgb(5 8 22 / var(--tw-bg-opacity));
+    border-color: #fff; 
+}
+
+
+@media (max-width: 768px) {
+    .view-modal {
+        padding: 3px 10px;
+        font-size: 14px;
+    }
+}
+
+
+.popup{
+    z-index: 20;
+    backdrop-filter: blur(50px);
+    padding: 35px;
+    border-radius: 15px;
+    top: -150%;
+    max-width: 480px;
+    width: 90%;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+    transform: translate(-50%, -50%) scale(1.2);
+    transition: top 0s 0.2s ease-in-out,
+                opacity 0.2s 0s ease-in-out,
+                transform 0.2s 0s ease-in-out;
+}
+
+
+.popup.show{
+    top: 50%;
+    opacity: 1;
+    pointer-events: auto;
+    transform:translate(-50%, -50%) scale(1);
+    transition: top 0s 0s ease-in-out,
+                opacity 0.2s 0s ease-in-out,
+                transform 0.2s 0s ease-in-out;
+}
+
+.popup :is(header, .icons, .field){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popup header{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+header span{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+header .close, .icons a{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.close-icon {
+    cursor: pointer;
+    width: 27px; 
+    height: 27px;
+}
+
+.popup .content{
+    margin: 20px 0;
+}
+
+.popup .icons{
+    margin: 15px 0 20px 0;
+}
+
+.content p{
+    font-size: 18px;
+}
+
+.content .icons a{
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.popup .icons .social-icon {
+    width: 45px;
+    height: 45px;
+}
+
+@media (max-width: 768px) {
+    .content .icons a{
+        height: 65px;
+        width: 65px;
+    }
+    .popup .icons .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .content .icons a{
+        height: 55px;
+        width: 55px;
+    }
+    .popup .icons .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+.icons a i{
+    transition: transform 0.3s ease-in-out;
+}
+.icons a:nth-child(1){
+    color: #0077b5;
+}
+.icons a:nth-child(1):hover{
+    background: #0077b5;
+}
+.icons a:nth-child(2){
+    color: #316FF6;
+}
+.icons a:nth-child(2):hover{
+    background: #316FF6;
+}
+.icons a:nth-child(4){
+    color: #DD2A7B;
+}
+.icons a:nth-child(4):hover{
+    background: #DD2A7B;
+}
+.icons a:nth-child(5){
+    color: #5865F2;
+}
+.icons a:nth-child(5):hover{
+    background: #5865F2;
+}
+.icons a:nth-child(3){
+    color: #2b3137;
+}
+.icons a:nth-child(3):hover{
+    background: #2b3137;
+}
+.icons a:hover{
+    color: #fff;
+border-color: transparent;
+}
+.icons a:hover i{
+    transform: scale(1.2);
+}
+
+.content .field{
+    margin: 12px 0 -5px 0;
+    height: 45px;
+    border-radius: 4px;
+    padding: 0 5px;
+    border: 1px solid #fff;
+}
+
+
+.field input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.field button {
+    color: #fff; /* White text color */
+    padding: 5px 18px;
+    border-radius: 4px;
+    background-color: transparent; /* Transparent background */
+    border: 1px solid #fff; /* White border for visibility */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    font-weight: bold; /* Make the text bold */
+}
+
+.field button:hover {
+    background-color: #fff; /* White background on hover */
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+    border-color: #fff; /* Maintain white border */
+}
