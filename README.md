@@ -14,7 +14,7 @@
   <h3 align="center">A 3D Developer Portfolio</h3>
 
    <div align="center">
-     Cheak out my latest version website on <a href="https://www.genichihashi.me" target="_blank"><b>Gen's Website</b></a>. Hope you like it !
+     Check out my latest website version on <a href="https://www.genichihashi.me" target="_blank"><b>Gen's Website</b></a>. Hope you like it!
     </div>
 </div>
 
