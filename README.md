@@ -14,7 +14,7 @@
   <h3 align="center">A 3D Developer Portfolio</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     Cheak out my latest version website on <a href="https://www.genichihashi.me" target="_blank"><b>Gen's Website</b></a>. Hope you like it !
     </div>
 </div>
 
@@ -29,9 +29,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
+In the new year of 2024, I was at the university alone and came up with motivation of developing a website to showcase myself. While there are fireworks and counting down outside, I watched tutorial of web development on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> and followed each steps with some adjustments to my preference. Also, watching <a href="https://www.youtube.com/watch?v=0lj643VmTsg&list=LL&index=25"><b>CG Geek</br></a>'s turorial, I created low poly island and embedded to the website. The overall development of this website helped me learning the fundamental of frontend development as well as the excitement 3D modelling. The whole codes are mixed up with multiple sources and it's little messy. I'll fix them when I'm free so please go easy on me :))
 
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
@@ -58,8 +56,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone git@github.com:18gen/webPortfolio.git
+cd webPortfolio
 ```
 
 **Installation**
@@ -70,18 +68,6 @@ Install the project dependencies using npm:
 npm install
 ```
 
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project and add the following content:
-
-```env
-REACT_APP_EMAILJS_USERID=your_emailjs_user_id
-REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
-REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
-```
-
-Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).
-
 **Running the Project**
 
 ```bash
@@ -89,6 +75,11 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+
+**Any troubles**
+
+- Just Google it
+- or checkout out the my based tutorial <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b>
 
 ## <a name="snippets">🕸️ Snippets</a>
 
