@@ -19,7 +19,7 @@ const ProjectCard = ({
 
   return (    
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className={`bg-tertiary p-5 rounded-3xl w-full ${window.innerWidth >= 640 ? 'sm:w-[500px]' : 'w-[450px]'}`}>
+      <div className={`bg-tertiary p-5 rounded-3xl w-[360px] md:w-[500px]`}>
         <div className='relative flex'>
           <div className='w-full h-full rounded-2xl'>
           <video 
@@ -84,7 +84,7 @@ const Works = () => {
         <p className={`${styles.sectionSubText} `}>video may only be played on Chrome</p>
       </motion.div>
 
-     <div className='mt-5 flex overflow-x-auto no-scrollbar  gap-7' style={{ scrollSnapType: 'x mandatory' }}>
+     <div className='mt-5 flex overflow-x-auto no-scrollbar  gap-7'  style={{ scrollSnapType: 'smooth' }} >
         {projects.map((project, index) => (
           <div key={`project-${index}`} style={{ scrollSnapAlign: 'start' }}>
             <ProjectCard index={index} {...project} />
