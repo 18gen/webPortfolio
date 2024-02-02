@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1439" alt="Screenshot 2024-02-02 at 3 01 48 PM" src="https://github.com/18gen/webPortfolio/assets/133405903/d9952f1e-8808-46ca-84ea-20fa677f9e4d"><div align="center">
   <br />
     <a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
       <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
