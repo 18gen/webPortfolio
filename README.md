@@ -27,7 +27,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-In the early days of 2024, I found myself alone at university, filled with the inspiration to create a web portfolio to showcase my work. While people outside were celebrating the new year with fireworks and countdowns, I decided to delve into web development. I watched step-by-step tutorials from <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> and made some personal tweaks to create a website that reflects my unique style.
+In the early days of 2024, I found myself alone at university, filled with the inspiration to create a web portfolio to showcase my work. While people outside were celebrating the new year with fireworks and countdowns, I decided to delve into web development. I watched step-by-step tutorials from <a href="https://youtu.be/0fYi8SGA20k?si=4siJREcyedfAkxRi" target="_blank"><b>JavaScript Mastery</b></a> and made some personal tweaks to create a website that reflects my unique style.
 
 Alongside web development, I ventured into the world of 3D modeling by following <a href="https://www.youtube.com/watch?v=0lj643VmTsg&list=LL&index=25"><b>CG Geek</b></a>'s tutorials. I designed a low-poly island and incorporated it into my website, which not only helped me learn the basics of frontend development but also sparked my enthusiasm for 3D modeling.
 
@@ -78,7 +78,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 **Any troubles**
 
 - Google it ?
-- or checkout out the tutorial I refered at <a href="https://www.youtube.com/watch?v=0fYi8SGA20k&list=LL&index=33" target="_blank"><b>JavaScript Mastery</b>
+- or checkout out the tutorial I refered at <a href="https://youtu.be/0fYi8SGA20k?si=4siJREcyedfAkxRi" target="_blank"><b>JavaScript Mastery</b>
 
 ## <a name="snippets">👀 Snippets</a>
 
